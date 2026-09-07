@@ -3,7 +3,7 @@
 main:
     li x5, 5 # a=5
     li x8 ,5
-    add x6, x0, x0 # b=0+0
+    add x6, x0 , x0 # b=0+0
     addi x5, x6, 32 # a=b+32
     add x7, x5, x6 # (a + b)
     sub x9, x7, x8 # d stored in x9
