@@ -8,7 +8,7 @@ main:
     li x7, 0x300 # unsigned int array c
     # for i=0 c[0]= a[0]+b[0]
     lb x10, 0(x5) # x10 stores value of a[i]
-    lh x11, 0(x6)) #stores value of b[i]
+    lh x11, 0(x6) #stores value of b[i]
     add x12, x10, x11 # address of c[i]
     sw x12, 0(x7) #storing from register to memory
 
